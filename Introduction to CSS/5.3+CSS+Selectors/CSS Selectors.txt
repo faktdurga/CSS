@@ -1,0 +1,48 @@
+CSS Selectors 
+
+Selectors helps us to choose where we want to apply rules.
+
+There are mainly three types
+
+Element Selector
+This will apply blue colour to all h1 element
+ex: 
+
+h1{
+   color: blue
+}
+
+
+Class Selector
+This require . symbol and class name that we are selecting after that we need to apply css rule
+
+ex
+
+.red-text{
+    color : red
+}
+
+ID Selector 
+It has special symbol # and no space between actual name of id
+
+ex:
+
+#main{
+   color: red
+}
+
+Attribute Selector
+In this type we first right html tag then attribute then we can style it. Also make sure we need to make draggable true.
+
+ex:
+p[draggavke="false"]{
+color:red;
+}
+
+
+Universal Selector
+we need to use * it will be applied to all
+ex
+*{
+  Color: Red;
+}
