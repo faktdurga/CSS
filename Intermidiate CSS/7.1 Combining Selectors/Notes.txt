@@ -1,0 +1,33 @@
+Combining CSS Selector
+
+1. Group  - Using comma separator this will group multiple selector and apply style in all
+
+selector, selector{
+	color:  blue;
+}
+
+2. Child - Using child we can apply same style to element that is under some parent element it is up to only 1 level
+
+ex: div --
+	div--
+	
+	--
+    ---
+Like this should be the relationship
+
+select > selector{
+	color : blue;
+}
+
+
+3. Decendents - Using space between selectors we can apply descendent style this will help use to go into deep level of inside of element
+
+selector selector {
+	color : blue;
+}
+
+4. Chaining - Apply where all selectors are true
+
+selectorselector{
+	color : blue;
+}
