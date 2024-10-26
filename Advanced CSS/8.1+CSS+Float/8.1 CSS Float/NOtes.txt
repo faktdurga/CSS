@@ -1,0 +1,15 @@
+Float 
+
+It is used to wrap text around some element example of this is when you see news papers usually news details are displayed around some images that we can achive using float
+
+ex 
+
+img{
+   float : right;
+}
+
+and if you want to any element to not considered in float property at that time you can use clear for example if you want footer to be excluded from float you can achive it using below.
+
+footer{
+	clear : left;
+}
