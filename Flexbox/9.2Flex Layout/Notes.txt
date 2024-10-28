@@ -1,0 +1,18 @@
+Documentation
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+User full properties
+
+order : 0;
+used for ordering 
+
+flex-wrap: nowrap;
+default property of flex box it is property of parent
+
+justyfy-content: flex-start;
+it set on the parent 
+flext-start right align
+flex-end left align
+center center align
+
+
+

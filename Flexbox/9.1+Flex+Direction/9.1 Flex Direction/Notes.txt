@@ -1,0 +1,17 @@
+Flex direction : row
+
+right to left --- --- --- ---
+
+Flex directin : column
+
+top to bottom
+---
+---
+---
+---
+
+flex-basis : 100 px
+It can applied to child not parent
+flex basis used to set height and width of flex box 
+if flex direction is row it will set width 
+if flex direction is column it will set height
